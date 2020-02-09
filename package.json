@@ -25,6 +25,16 @@
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .js --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jualoppaz/single-spa-react-app.git"
+  },
+  "author": "Juan Manuel López Pazos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jualoppaz/single-spa-react-app/issues"
+  },
+  "homepage": "https://github.com/jualoppaz/single-spa-react-app#readme",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -51,5 +61,12 @@
     "typescript": "3.7.5",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.10"
-  }
+  },
+  "keywords": [
+    "single-spa",
+    "react",
+    "react-router-dom",
+    "npm",
+    "webpack"
+  ]
 }
