@@ -1,6 +1,6 @@
 <p float="left">
   <img src="https://single-spa.js.org/img/logo-white-bgblue.svg" width="50" height="50">
-  <img src="https://img.favpng.com/4/1/17/react-javascript-vue-js-logo-png-favpng-T97hHj5T2UsnURsbZ0PB5Mi3c.jpg" width="50" height="50">
+  <img src="https://cdn.auth0.com/blog/react-js/react.png" width="50" height="50">
 </p>
 
 [![npm version](https://img.shields.io/npm/v/single-spa-react-app.svg?style=flat-square)](https://www.npmjs.org/package/single-spa-react-app)
