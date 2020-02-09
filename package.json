@@ -1,6 +1,7 @@
 {
   "name": "single-spa-react-app",
   "version": "0.1.0",
+  "description": "React application with two example pages for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-react-app.js",
   "dependencies": {
     "@babel/core": "7.8.4",
