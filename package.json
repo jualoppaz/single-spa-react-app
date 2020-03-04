@@ -11,10 +11,7 @@
     "single-spa-react": "2.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "webpack --config webpack.config.js -p",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "lint": "eslint . --ext .js --fix"
   },
   "repository": {
