@@ -49,7 +49,7 @@ The **reactLifecycles** object contains all **single-spa-react** methods for the
 ```json
 {
   "name": "single-spa-react-app",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "React application with two example pages for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-react-app.js",
   "dependencies": {
