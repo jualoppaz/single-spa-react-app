@@ -180,4 +180,4 @@ module.exports = {
 ```
 
 The needed options for the right build of the application as library are defined in the **output** field.\
-The **LimitChunkCountPlugin** is used for disable chunks for build process. It's not necessary but I prefer keep whole application in one chunk as it will be embedded in another one.\
+The **LimitChunkCountPlugin** is used for disable chunks for build process. It's not necessary but I prefer keep whole application in one chunk as it will be embedded in another one.
