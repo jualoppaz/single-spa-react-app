@@ -18,9 +18,39 @@ This is a React application which contains two routed pages for embbed the app i
 
 There are several files for the right working of this application and they are:
 
+- src/index.js
 - src/singleSpaEntry.js
 - package.json
 - webpack.config.js
+
+### src/index.js
+
+```javascript
+import React from 'react';
+import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+
+import App from './App';
+import * as serviceWorker from './serviceWorker';
+
+
+export default class Root extends React.Component {
+  render() {
+    return (
+      <BrowserRouter basename="/react">
+        <App />
+      </BrowserRouter>
+    );
+  }
+}
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
+```
+
+As this application will be mounted when browser url starts with **/react**, we need to set **basename** attribute with **/react** value in our router component. In this case the used router compononent is **BrowserRouter**.
 
 ### src/singleSpaEntry.js
 
