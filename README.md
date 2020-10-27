@@ -79,14 +79,14 @@ The **reactLifecycles** object contains all **single-spa-react** methods for the
 ```json
 {
   "name": "single-spa-react-app",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "React application with two example pages for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-react-app.js",
   "dependencies": {
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-router-dom": "5.1.2",
-    "react-scripts": "3.3.1",
+    "react-scripts": "4.0.0",
     "single-spa-react": "2.11.0"
   },
   "scripts": {
@@ -121,17 +121,18 @@ The **reactLifecycles** object contains all **single-spa-react** methods for the
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.4.0",
     "@testing-library/user-event": "7.2.1",
+    "babel-eslint": "10.0.3",
     "babel-loader": "8.0.6",
     "clean-webpack-plugin": "3.0.0",
-    "babel-eslint": "10.0.3",
     "css-loader": "3.4.2",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
+    "eslint-loader": "4.0.2",
     "eslint-plugin-flowtype": "4.6.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-react": "7.18.3",
     "html-loader": "0.5.5",
-    "node-sass": "4.13.1",
+    "node-sass": "4.14.1",
     "path": "0.12.7",
     "sass-loader": "8.0.2",
     "style-loader": "1.1.3",
